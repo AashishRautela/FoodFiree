@@ -1,2 +1,1 @@
-# FoodFiree
-[View the App Here](https://food-firee-iota.vercel.app/)
+#[FoodFire](https://food-firee-iota.vercel.app/)
