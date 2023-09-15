@@ -1,0 +1,37 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ashish Rautle",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "jquery": "^3.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.14.2",
+    "react-shimmer-effects": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AashishRautela/FoodFire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AashishRautela/FoodFire/issues"
+  },
+  "homepage": "https://github.com/AashishRautela/FoodFire#readme",
+  "description": ""
+}
