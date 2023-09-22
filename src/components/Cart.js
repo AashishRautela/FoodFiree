@@ -2,7 +2,6 @@ import React from "react";
 import { ITEM_IMG_CDN_URL } from "../constants";
 import { useDispatch, useSelector } from "react-redux";
 import { clearCart } from "../utils/cartSlice";
-
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);
   const dispatch=useDispatch();
@@ -11,6 +10,7 @@ const Cart = () => {
     dispatch(clearCart());
   }
   return (
+    <>
     <div className="cart">
       <div className="cart-top">
       <h2>Your Cart-{cartItems.length} Items</h2>
@@ -41,6 +41,7 @@ const Cart = () => {
         </ul>
       )}
     </div>
+    </>
   );
 };
 

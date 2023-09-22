@@ -24,7 +24,7 @@
     border-radius: 5px;
     color:#545454;
     top: 0;
-	z-index:1000;
+	z-index:2000;
 }
 .logo{
     width: 80px;
@@ -665,7 +665,29 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+.banner{
+  width: 1100px;
+  margin-left: 120px;
+  margin-right: 100px;
 
+}
+.banner>h2{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: rgba(2, 6, 12, 0.92);
+  font-family: 'Darker Grotesque', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.banner-img>img{
+  height: 252px;
+  width: 420px;
+   margin: 20px;
+}
 /* Add more styles as needed to match your design */
 
   /* custom-owl-carousel.css */

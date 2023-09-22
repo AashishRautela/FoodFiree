@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { filterData } from "../utils/helper";
 import useOnline from "../Hooks/useOnline";
 import OfflineLandingPage from "./Offline";
+import Banner from "./Banner";
 const Body = () => {
     const [allrestaurants, setAllrestaurants] = useState([]);
     const [filteredrestaurants, setFilteredRestaurants] = useState([]);
@@ -60,6 +61,7 @@ const Body = () => {
     //if(filteredrestaurants?.length===0) return <h1>No results found</h1>
     return (allrestaurants.length === 0) ? <Shimmer /> : (
         <>
+            <Banner/>
             <div className="search-container">
                 <input type="text"
                     className="search-input"

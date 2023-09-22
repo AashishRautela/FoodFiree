@@ -9,7 +9,7 @@ export const ITEM_IMG_CDN_URL =
 export const MENU_ITEM_TYPE_KEY = "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory";
 export const RESTAURANT_TYPE_KEY = "type.googleapis.com/swiggy.presentation.food.v2.Restaurant";
 export const shimmer_card_unit = 20;
-
+export const CARAUSEL_IMG_CDN="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/ ";
 export const shimmer_menu_card_unit = 4;
 
 export const restaurantList = [
